@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muhammad Nouman — Portfolio</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: #1f2937; background: #f8fafc; line-height: 1.6; }
+  a { color: #2563eb; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* Hero */
+  header { background: #0f172a; color: #f1f5f9; padding: 64px 20px 56px; text-align: center; }
+  header h1 { font-size: 2.6rem; letter-spacing: -0.5px; }
+  header p.tagline { font-size: 1.15rem; color: #94a3b8; margin-top: 8px; }
+  header .contact { margin-top: 20px; font-size: 0.95rem; color: #cbd5e1; }
+  header .contact a { color: #93c5fd; }
+  header .contact span.sep { margin: 0 10px; color: #475569; }
+
+  /* Layout */
+  main { max-width: 860px; margin: 0 auto; padding: 40px 20px 64px; }
+  section { margin-bottom: 48px; }
+  h2 { font-size: 1.4rem; color: #0f172a; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; margin-bottom: 20px; }
+  p { margin-bottom: 12px; }
+
+  /* Skills */
+  .chips { display: flex; flex-wrap: wrap; gap: 10px; }
+  .chip { background: #e0e7ff; color: #3730a3; padding: 6px 14px; border-radius: 999px; font-size: 0.9rem; font-weight: 500; }
+
+  /* Cards */
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }
+  .card { background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; }
+  .card h3 { font-size: 1.05rem; color: #0f172a; margin-bottom: 6px; }
+  .card p { font-size: 0.93rem; color: #475569; margin-bottom: 0; }
+  .badge { display: inline-block; font-size: 0.72rem; font-weight: 600; padding: 2px 8px; border-radius: 999px; margin-bottom: 8px; }
+  .badge.concept { background: #fef3c7; color: #92400e; }
+  .badge.course { background: #dcfce7; color: #166534; }
+  .badge.creative { background: #fce7f3; color: #9d174d; }
+
+  /* Certificates */
+  .cert { background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px 20px; margin-bottom: 12px; }
+  .cert h3 { font-size: 1rem; color: #0f172a; }
+  .cert p { font-size: 0.9rem; color: #64748b; margin-bottom: 0; }
+  .cert .verify { font-size: 0.85rem; }
+
+  /* Lists */
+  .edu-item { margin-bottom: 16px; }
+  .edu-item h3 { font-size: 1.02rem; color: #0f172a; }
+  .edu-item p { font-size: 0.93rem; color: #64748b; margin-bottom: 0; }
+
+  footer { text-align: center; color: #94a3b8; font-size: 0.85rem; padding: 24px 20px 32px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Muhammad Nouman</h1>
+  <p class="tagline">BSAI Student &middot; Artificial Intelligence &amp; Machine Learning</p>
+  <p class="contact">
+    <a href="mailto:nominomikhan016@gmail.com">nominomikhan016@gmail.com</a>
+    <span class="sep">|</span>
+    <a href="tel:+923715790027">+92 371 5790027</a>
+  </p>
+</header>
+
+<main>
+
+  <section>
+    <h2>About</h2>
+    <p>I am a BSAI student at Ibadat International University, Islamabad, focused on artificial intelligence and machine learning. I have completed the Machine Learning Specialization (DeepLearning.AI / Stanford), covering supervised learning, neural networks and decision trees, and I am building AI-powered tools that solve real problems.</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="chips">
+      <span class="chip">Python</span>
+      <span class="chip">Machine Learning</span>
+      <span class="chip">Deep Learning</span>
+      <span class="chip">Neural Networks</span>
+      <span class="chip">TensorFlow</span>
+      <span class="chip">Decision Trees</span>
+      <span class="chip">Data Analysis</span>
+      <span class="chip">Business Intelligence</span>
+      <span class="chip">Prompt Engineering</span>
+      <span class="chip">AI Tools</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <span class="badge concept">Proposal / Concept</span>
+        <h3>AI Job Helper</h3>
+        <p>CV-based job matching, CV improvement, cover letters and interview practice — an AI assistant for job seekers.</p>
+      </div>
+      <div class="card">
+        <span class="badge concept">Proposal / Concept</span>
+        <h3>Smart Study Tutor</h3>
+        <p>An AI study assistant concept that helps students learn, revise and practise from their own course material.</p>
+      </div>
+      <div class="card">
+        <span class="badge course">Coursework</span>
+        <h3>Machine Learning Specialization Labs</h3>
+        <p>Hands-on Python and TensorFlow labs: linear and logistic regression, neural networks, and decision trees (DeepLearning.AI).</p>
+      </div>
+      <div class="card">
+        <span class="badge course">Coursework</span>
+        <h3>Computer Networks Labs</h3>
+        <p>Packet Tracer labs: network topologies, IP addressing and static routing across routers and PCs.</p>
+      </div>
+      <div class="card">
+        <span class="badge creative">Creative Project</span>
+        <h3>Aakhri Ghanta — Urdu Short Film</h3>
+        <p>A 30-minute Urdu short film about a final-semester student's last-hour scramble — script, planning and AI-generated clips.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Certificates</h2>
+    <div class="cert">
+      <h3>Advanced Learning Algorithms</h3>
+      <p>DeepLearning.AI &middot; November 2026 &middot; Grade: 100%</p>
+      <p class="verify"><a href="https://www.coursera.org/account/accomplishments/verify/T1L8YTKIY76I" target="_blank" rel="noopener">Verify certificate</a></p>
+    </div>
+    <div class="cert">
+      <h3>Supervised Machine Learning: Regression and Classification</h3>
+      <p>DeepLearning.AI / Stanford Online &middot; November 2026 &middot; Grade: 100%</p>
+      <p class="verify"><a href="https://coursera.org/verify/CD9E959A9SUB" target="_blank" rel="noopener">Verify certificate</a></p>
+    </div>
+    <div class="cert">
+      <h3>Introduction to AI</h3>
+      <p>Google &middot; June 2026</p>
+    </div>
+    <div class="cert">
+      <h3>Maximize Productivity With AI Tools</h3>
+      <p>Google &middot; June 2026</p>
+    </div>
+    <div class="cert">
+      <h3>Foundations of Business Intelligence</h3>
+      <p>Google &middot; June 2026</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <div class="edu-item">
+      <h3>BS Artificial Intelligence (BSAI)</h3>
+      <p>Ibadat International University, Islamabad &middot; 4th Semester &middot; Spring 2025 Batch</p>
+    </div>
+    <div class="edu-item">
+      <h3>Intermediate in Computer Science (ICS)</h3>
+      <p>IMCB Sihala, Islamabad</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <div class="edu-item">
+      <h3>Administrative &amp; Management Experience</h3>
+      <p>Managing records, fee collection and day-to-day operations alongside studies.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:nominomikhan016@gmail.com">nominomikhan016@gmail.com</a></p>
+    <p>Phone: <a href="tel:+923715790027">+92 371 5790027</a></p>
+  </section>
+
+</main>
+
+<footer>
+  &copy; 2026 Muhammad Nouman
+</footer>
+
+</body>
+</html>
